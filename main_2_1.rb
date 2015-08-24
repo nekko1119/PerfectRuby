@@ -1,7 +1,8 @@
+#encoding: utf-8
 class Main21
   def hello(names)
     names.each do |name|
-      puts "HELLO, #{name.upcase}"
+      puts "こんにちは, #{name.upcase}"
     end
   end
 end
